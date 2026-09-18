@@ -2,10 +2,10 @@
 
 public class Cube
 {
-    public static int RoleTheDie()
+    public static int RollTheDie()
     {
-        Random random = new Random();
-        int result = random.Next(1, 7);
+        
+        int result = Random.Shared.Next(1, 7);
         return result;
     }
 
